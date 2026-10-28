@@ -3,7 +3,7 @@
 
 ## 🧊 3D 贡献图
 <p align="center">
-<img src="./profile-3d-contrib/profile-gitblock.svg" />
+<img src="./metrics.svg" alt="Github Metrics">
 </p>
 
 
