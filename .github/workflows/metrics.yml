@@ -15,7 +15,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
           USERNAME: kb178
           THEME: dark
-      # 增加调试：打印目录，看看到底有没有生成svg！
       - name: Debug - list files
         run: ls -la ./profile-3d-contrib || echo "文件夹不存在！"
       - name: Commit & Push
