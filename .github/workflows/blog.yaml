@@ -1,7 +1,7 @@
 name: Latest blog post workflow
 on:
   schedule:
-    - cron: '0 */2 * * *' # 每2小时执行一次
+    - cron: '0 */2 * * *'
   workflow_dispatch:
 permissions:
   contents: write
@@ -19,3 +19,6 @@ jobs:
           feed_list: "https://www.peterjxl.com/rss.xml"
           max_post_count: 5
           sort_by: published
+          # 表格模板
+          template: "| 📅 $date$ | [📖 $title$]($url$) |"
+          # 表头只生成一次，放在README标记里
