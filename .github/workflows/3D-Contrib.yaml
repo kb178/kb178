@@ -9,11 +9,11 @@ jobs:
     name: generate-github-profile-3d-contrib
     steps:
       - uses: actions/checkout@v4
-      - uses: yoshi389111/github-profile-3d-contrib@0.7.1
+      - name: generate 3d contrib
+        uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
-          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
-          USERNAME: ${{ github.repository_owner }}
-          THEME: dark
+          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}  # 👉 改成你自己的PAT！
+          USERNAME: kb178  # 👉 写死你的用户名，别用自动变量
       - name: Commit & Push
         run: |
           git config user.name github-actions
