@@ -9,20 +9,11 @@
 </p>
 
 ## 📝 最新博客文章
-<!-- 下面这对是博客action的固定标记，别动！ -->
-<!-- BLOG-POST-LIST:START -->
-<!-- BLOG-POST-LIST:END -->
+| 时间 | 标题 |
+| ---- | ---- |
+| 2026-10-28 | [Java入门笔记](https://xxx.com/xxx) |
+| 2026-10-27 | [Vue项目踩坑记录](https://xxx.com/yyy) |
 
-## 📊 Github 数据卡片
-<!-- lowlighter metrics 卡片 -->
-![Metrics](https://xxx你的metrics图片链接)
-
-## 🛠️ 技术栈
-
-
-
-
-## ⚙️ Workflow状态徽章
 
 
 
