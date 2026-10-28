@@ -1,8 +1,8 @@
-
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/kb178/kb178/blob/output/github-contribution-grid-snake-dark.svg" />
-  <img alt="snake" src="https://github.com/kb178/kb178/blob/output/github-contribution-grid-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kb178/kb178/output/github-contribution-grid-snake-dark.svg" />
+  <img alt="snake" src="https://raw.githubusercontent.com/kb178/kb178/output/github-contribution-grid-snake.svg" />
 </picture>
+
 
 <!--
 **kb178/kb178** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
