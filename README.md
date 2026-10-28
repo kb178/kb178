@@ -1,5 +1,4 @@
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=kb178)
-
+![Metrics](/github-metrics.svg)
 <!--
 **kb178/kb178** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
