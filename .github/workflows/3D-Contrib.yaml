@@ -9,11 +9,15 @@ jobs:
     name: generate-github-profile-3d-contrib
     steps:
       - uses: actions/checkout@v4
-      - name: generate 3d contrib
+      - name: Generate 3D contrib svg
         uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
-          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}  # 👉 改成你自己的PAT！
-          USERNAME: kb178  # 👉 写死你的用户名，别用自动变量
+          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
+          USERNAME: kb178
+          THEME: dark
+      # 增加调试：打印目录，看看到底有没有生成svg！
+      - name: Debug - list files
+        run: ls -la ./profile-3d-contrib || echo "文件夹不存在！"
       - name: Commit & Push
         run: |
           git config user.name github-actions
