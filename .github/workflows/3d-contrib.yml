@@ -1,0 +1,33 @@
+name: GitHub-Profile-3D-Contrib
+on:
+  schedule:
+    - cron: "0 18 * * *"
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate 3D svg
+        uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
+          USERNAME: kb178
+          THEME: dark
+          # 增加日志输出，方便看哪里卡住
+          LOG_LEVEL: debug
+      - name: 查看是否生成文件夹
+        run: |
+          if [ -d "./profile-3d-contrib" ];then
+            echo "✅ 文件夹存在，文件列表："
+            ls ./profile-3d-contrib
+          else
+            echo "❌ 没有生成 profile-3d-contrib 文件夹"
+          fi
+      - name: 提交文件
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add .
+          git diff --cached --quiet || git commit -m "update 3d contrib"
+          git push
