@@ -1,5 +1,12 @@
 # Hi 👋, I'm kb178
 
+
+## 🧊 3D 贡献图
+<p align="center">
+<img src="https://cdn.jsdelivr.net/gh/kb178/kb178@main/profile-3d-contrib/profile-gitblock.svg" />
+</p>
+
+
 <p align="center">
 <!-- 贪吃蛇 -->
 <picture>
