@@ -4,6 +4,10 @@
 </picture>
 
 
+&nbsp;**Latest Blog Posts**
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
+
 <!--
 **kb178/kb178** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
