@@ -1,4 +1,4 @@
-# Hi 👋, I'm kb178
+# Hi 👋, I'm kb178，I will continue to explore in the AI ​​era.
 
 
 ## 🧊 3D 贡献图
