@@ -20,7 +20,7 @@
 | 时间 | 标题 |
 | ---- | ---- |
 | 2026-10-28 | [行为型设计模式学习](https://github.com/kb178/DesignPattern/blob/main/src/behavioral/README.md) |
-| 2026-10-27 | [Vue项目踩坑记录](https://xxx.com/yyy) |
+| 2026-10-27 | [设计模式学习](https://github.com/kb178/DesignPattern/blob/main/README.md) |
 
 
 
