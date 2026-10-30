@@ -19,7 +19,7 @@
 ## 📝 最新博客文章
 | 时间 | 标题 |
 | ---- | ---- |
-| 2026-09-05 | [行为型设计模式学习](https://github.com/kb178/Risoluzione-dei-problemi-in-Java/blob/main/README.md) |
+| 2026-09-05 | [秒杀系统渐进式学习](https://github.com/kb178/Risoluzione-dei-problemi-in-Java/blob/main/README.md) |
 | 2026-05-27 | [设计模式学习](https://github.com/kb178/DesignPattern/blob/main/README.md) |
 
 
